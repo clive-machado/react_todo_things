@@ -1,13 +1,13 @@
 export default {
 	getTodo : (uid) => {
 		let promise = new Promise ((resolve, reject) => {
-			return localStorage.getItem("todos") ? resolve(JSON.parse(localStorage.getItem("todos"))) : reject("No Key found!");
+			return localStorage.getItem("todos") && resolve(JSON.parse(localStorage.getItem("todos")))
 		});
 		return promise;
 	},
 	createTodo : (card) => {
 		let promise = new Promise ((resolve, reject) => {
-			!localStorage.getItem("todos") && localStorage.setItem("todos", []);
+			!localStorage.getItem("todos") && localStorage.setItem("todos", "[]");
 			let tempTodo = JSON.parse(localStorage.getItem("todos"));
 			tempTodo.unshift(card);
 			localStorage.setItem("todos", JSON.stringify(tempTodo));
