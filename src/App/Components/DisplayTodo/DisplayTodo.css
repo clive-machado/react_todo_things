@@ -1,0 +1,57 @@
+.displayCardContainer {
+	margin: 0px 50px;
+}
+
+.cardContainer{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px;
+	flex-direction: row;
+}
+
+.cards {
+	margin: 10px;
+	padding: 10px;
+	list-style: none;
+	width: auto;
+	flex: 1 1 160px;
+	min-width: 200px;
+	max-width: 300px;
+	overflow-wrap: break-word;
+	border-radius: 8px;
+	box-shadow: 0px 0px 6px 3px #e4e4e4;
+}
+
+.deleteCard {
+	cursor: pointer;
+	font-weight: 500;
+	color: #ffffff;
+	border-radius: 45px;
+	padding: 2px 4px;
+	font-size: 7px;
+	background-color: #e0e0e0;
+	float: right;
+}
+
+.deleteCard:hover {
+	background-color: #f56c6c;
+}
+
+.editCardTitle {
+	font-size: 20px;
+	font-weight: 500;
+	display: block;
+	max-height: 50px;
+	overflow: scroll;
+}
+
+.editCardDesc {
+	width: 90%;
+	min-height: 100px;
+	max-height: 150px;
+	overflow: scroll;
+	padding: 5px;
+	font-size: 13px;
+	resize: none;
+	display: block;
+}

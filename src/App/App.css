@@ -1,0 +1,15 @@
+.noBorder {
+	border: none;
+}
+
+.zeroOutline:focus{
+	outline: none;
+}
+
+.noDisplay {
+	display: none;
+}
+
+.blockDisplay {
+	display: block;
+}

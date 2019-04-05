@@ -1,0 +1,45 @@
+.createCardContainer {
+ margin: 10px;
+ padding: 10px;
+ display: flex;
+ flex-wrap: nowrap;
+ flex-direction: row;
+}
+
+.createCardWrapper {
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 8px;
+	box-shadow: 0px 0px 6px 3px #e4e4e4;
+}
+
+.createCardTitle {
+	width : 550px;
+	height: 25px;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.createCardDesc{
+	width : 550px;
+	height: 50px;
+	padding: 5px;
+	font-size: 15px;
+	resize: none;
+}
+
+.createCardClose {
+	cursor: pointer;
+	padding: 5px 10px;
+	font-weight: 500;
+}
+
+.createCardClose:hover {
+	background: #f3f3f3;
+}
+
+.createNotesContainer{
+	padding: 0px;
+	width: 100%;
+}
+
