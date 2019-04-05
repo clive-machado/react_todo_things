@@ -1,7 +1,5 @@
 # React Todo Things
 
-[![Build Status]()]()
-
 React Todo is a Card based Todo Editor.
 
 # New Features!
